@@ -1,0 +1,43 @@
+.Blog {
+  background-color: #f4f4f4; /* Світло-сірий фон */
+  padding: 30px; /* Внутрішні відступи */
+  min-height: 100vh; /* Мінімальна висота для заповнення екрану */
+}
+
+.content-container {
+  max-width: 80%; /* Максимальна ширина контейнера */
+  margin: 0 auto; /* Центруємо контейнер */
+  padding-left: 6%; /* Відступ зліва */
+  background-color: #f4f4f4;
+ 
+}
+
+.post {
+  background-color: #ffffff; /* Білий фон для постів */
+  margin: 20px 0; /* Відступи між постами */
+  padding: 20px; /* Внутрішні відступи */
+  border-radius: 8px; /* Закруглені кути */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легка тінь */
+}
+
+.post h2 {
+  width: 70%;
+  font-size: 3rem; /* Розмір заголовка */
+  font-weight: 900;
+  color: #333; /* Колір заголовка */
+  margin-bottom: 10px; /* Відступ під заголовком */
+}
+
+.post p {
+  font-size: 1rem; /* Розмір тексту */
+  line-height: 1.6; /* Висота рядка для кращої читабельності */
+  color: #555; /* Колір тексту */
+  
+}
+
+img {
+  max-width: 100%; /* Максимальна ширина для зображень */
+  height: auto; /* Автоматична висота для збереження пропорцій */
+  border-radius: 5px; /* Закруглені кути зображень */
+  margin-top: 10px; /* Відступ над зображенням */
+}
